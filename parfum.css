@@ -1,0 +1,92 @@
+ body {
+     background-color: #f3eae3;
+ }
+
+ .Image {
+     position: absolute;
+     width: 300px;
+     margin-left: 300px;
+     margin-top: 40px;
+     display: inline;
+     border-top-left-radius: 12px;
+     border-bottom-left-radius: 12px;
+ }
+
+ .Parfum-Text {
+     position: absolute;
+     background-color: #fff;
+     width: 300px;
+     height: 450px;
+     margin-top: 40.55px;
+     margin-left: 601.5px;
+     border-top-right-radius: 12px;
+     border-bottom-right-radius: 12px;    
+ }
+
+ .Text {
+     position: absolute;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: #7c7c7c;
+     font-size: 17.5px;
+     margin-top: 195px;
+     margin-left: 32px;
+ }
+
+ .Text-2 {
+     position: absolute;
+     font-size: 11px;
+     margin-left: 32px;
+     margin-top: 21px;
+     color: #3f3f3f;
+ }
+
+ .Text-3 {
+     position: absolute;
+     font-size: 40px;
+     margin-left: 30px;
+     font-weight: bolder;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .Dollar-1 {
+     position: absolute;
+     font-size: 46px;
+     color: #3d8168;
+     margin-top: 296px;
+     margin-left: 30px;
+ }
+
+ .Dollar-2 {
+     margin-top: 312px;
+     margin-left: 195px;
+     color: #7c7c7c;
+ }
+
+ .Button {
+     position: absolute;
+     bottom: 32px;
+     left: 50%;
+     transform: translateX(-50%);
+     border-radius: 12.5px;
+     width: 240px;
+     height: 47px;
+     background-color: #3d8168;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .Text-4 {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-decoration: none;
+     color: #fff;
+ }
+
+ button:hover {
+     background-color: #1a3a2e;
+ }
